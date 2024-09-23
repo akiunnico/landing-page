@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.cabecera, 
+.footer,
+.cabecera.titulo{
+    background-color: #1f2937;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+}
+.hero{
+    display: flex;
+    gap: 1em;
+   padding: 60px;
+
+}
+.hero div{
+    flex: 1;
+}
+.hero p.main-text{
+    font-size: 48px;
+    font-weight: 900;
+} 
+.hero p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+a, .hero p{
+    color: #e5e7eb;
+}
+img{
+    width: 100%;
+}
+
+.logo{
+    margin: 15px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.logo, .hero p.main-text{
+    color: #f9faf8
+}
+ul{
+    padding: 0;
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+
+}
+.informacion{
+    padding: 40px 70px 60px;
+}
+.informacion .titulo{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 36px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+.cards div{
+    width: 200px;
+    border-radius: 10px;
+    flex-shrink: 1;
+}
+.cards img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+.cita{
+    padding: 70px 200px;
+    background-color: #e5e7eb;
+}
+.frase{
+    font-size: 30px;
+    font-style: italic;
+    font-weight:lighter;
+    color: #1f2937;
+}
+.autor{
+    text-align: right;
+    font-size: 20px;
+}
+.normal{
+    font-style: normal;
+}
+.accion{
+    padding: 60px 140px;
+}
+.advertencia{
+    padding: 40px 60px;
+
+}
+.azul{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+}
+
+.destacado{
+    font-size: 20px;
+    font-weight: bold;
+}
+.azul button{
+    margin: 40px;
+    border: 2px solid white;
+    font-weight: bold;
+    font-size: large;
+}
+.footer{
+    padding: 40px;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
